@@ -1,5 +1,6 @@
 import routes from "/:routes.js";
-import create from "/:create.jsx";
+import Create from "./create.jsx";
+
 
 export default {
   context: import("/:context.js"),
