@@ -1,9 +1,9 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App.jsx";
+import "./styles.css";
 
-import Create from "./create.jsx";
+// ❌ REMOVE THIS BAD IMPORT
+// import routes from "./routes.js";
 
-
-export default {
-  context: import("/:context.js"),
-  routes,
-  create,
-};
+ReactDOM.createRoot(document.getElementById("root")).render(<App />);
